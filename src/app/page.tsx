@@ -10,7 +10,7 @@ function page() {
         <Navbar />
         <Hero />
     </Container>
-     <div className="relative w-full flex bg-[#09090b]">
+     <div className="relative w-full  bg-[#09090b]">
         <div className="max-w-7xl mx-auto px-4 py-8 md:py-8 ">
 
         <Image

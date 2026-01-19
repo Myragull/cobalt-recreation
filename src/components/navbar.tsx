@@ -4,7 +4,7 @@ import { Button } from "./button";
 
 export const Navbar = () => {
   return (
-    <div className="flex w-full items-center justify-between px-4">
+    <div className="flex w-full items-center justify-between px-4 border border-amber-300">
       <Link href="/">
         <Image
           draggable={false}
@@ -16,7 +16,7 @@ export const Navbar = () => {
         />
       </Link>
 
-      <div className="flex items-center justify-between gap-8">
+      <div className="flex items-center justify-between gap-6">
         <Link
           href="/"
           className="transition-duration-200 font-medium text-neutral-300 hover:text-neutral-200"
