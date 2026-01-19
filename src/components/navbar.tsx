@@ -4,7 +4,7 @@ import { Button } from "./button";
 
 export const Navbar = () => {
   return (
-    <div className="flex w-full items-center justify-between px-4 border border-amber-300">
+    <div className="flex w-full items-center justify-between px-4 ">
       <Link href="/">
         <Image
           draggable={false}
