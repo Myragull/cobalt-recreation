@@ -1,13 +1,15 @@
 import {Container} from "@/components/container";
 import {Navbar} from "@/components/navbar";
 import {Hero} from "@/components/hero";
+import Particles from "@/components/particles"
 import Image from "next/image";
 
 function page() {
   return (
     <div className="flex flex-col relative bg-[radial-gradient(70%_40%_at_50%_0%,_#223a4e,_#09090b)] min-h-screen">
-    <Container className="relative z-10 w-full flex flex-col ">
+    <Container className="relative  w-full flex flex-col min-h-[90vh] ">
         <Navbar />
+        <Particles/>
         <Hero />
     </Container>
      <div className="relative w-full  bg-[#09090b]">
